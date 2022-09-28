@@ -1,0 +1,45 @@
+Arguments: 
+  /home/earth/.nvm/versions/node/v16.16.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /home/earth/.poetry/bin:/home/earth/.poetry/bin:/home/earth/.nvm/versions/node/v16.16.0/bin:/home/earth/.cargo/bin:/home/earth/.local/share/solana/install/active_release/bin:/home/earth/.local/bin:/home/earth/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/earth/.local/share/solana/install/active_release/bin:/home/earth/.local/share/solana/install/active_release/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+      "scripts": {
+          "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+          "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+      },
+      "dependencies": {
+          "@project-serum/anchor": "^0.24.2"
+      },
+      "devDependencies": {
+          "chai": "^4.3.4",
+          "mocha": "^9.0.3",
+          "ts-mocha": "^8.0.0",
+          "@types/bn.js": "^5.1.0",
+          "@types/chai": "^4.3.0",
+          "@types/mocha": "^9.0.0",
+          "typescript": "^4.3.5",
+          "prettier": "^2.6.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
